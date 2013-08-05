@@ -86,275 +86,21 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName STARTTIME$0 = 
-            new javax.xml.namespace.QName("", "startTime");
-        private static final javax.xml.namespace.QName PRODUCT$2 = 
-            new javax.xml.namespace.QName("", "product");
-        private static final javax.xml.namespace.QName WEATHERPARAMETERS$4 = 
-            new javax.xml.namespace.QName("", "weatherParameters");
-        private static final javax.xml.namespace.QName LONGITUDE$6 = 
-            new javax.xml.namespace.QName("", "longitude");
-        private static final javax.xml.namespace.QName LATITUDE$8 = 
+        private static final javax.xml.namespace.QName LATITUDE$0 = 
             new javax.xml.namespace.QName("", "latitude");
-        private static final javax.xml.namespace.QName ENDTIME$10 = 
+        private static final javax.xml.namespace.QName LONGITUDE$2 = 
+            new javax.xml.namespace.QName("", "longitude");
+        private static final javax.xml.namespace.QName PRODUCT$4 = 
+            new javax.xml.namespace.QName("", "product");
+        private static final javax.xml.namespace.QName STARTTIME$6 = 
+            new javax.xml.namespace.QName("", "startTime");
+        private static final javax.xml.namespace.QName ENDTIME$8 = 
             new javax.xml.namespace.QName("", "endTime");
-        private static final javax.xml.namespace.QName UNIT$12 = 
+        private static final javax.xml.namespace.QName UNIT$10 = 
             new javax.xml.namespace.QName("", "Unit");
+        private static final javax.xml.namespace.QName WEATHERPARAMETERS$12 = 
+            new javax.xml.namespace.QName("", "weatherParameters");
         
-        
-        /**
-         * Gets the "startTime" element
-         */
-        public java.util.Calendar getStartTime()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$0, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return target.getCalendarValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "startTime" element
-         */
-        public org.apache.xmlbeans.XmlDateTime xgetStartTime()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$0, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "startTime" element
-         */
-        public void setStartTime(java.util.Calendar startTime)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$0, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STARTTIME$0);
-                }
-                target.setCalendarValue(startTime);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "startTime" element
-         */
-        public void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$0, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(STARTTIME$0);
-                }
-                target.set(startTime);
-            }
-        }
-        
-        /**
-         * Gets the "product" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum getProduct()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PRODUCT$2, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum)target.getEnumValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "product" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType xgetProduct()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType)get_store().find_element_user(PRODUCT$2, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "product" element
-         */
-        public void setProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum product)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PRODUCT$2, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(PRODUCT$2);
-                }
-                target.setEnumValue(product);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "product" element
-         */
-        public void xsetProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType product)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType)get_store().find_element_user(PRODUCT$2, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType)get_store().add_element_user(PRODUCT$2);
-                }
-                target.set(product);
-            }
-        }
-        
-        /**
-         * Gets the "weatherParameters" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$4, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "weatherParameters" element
-         */
-        public void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$4, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$4);
-                }
-                target.set(weatherParameters);
-            }
-        }
-        
-        /**
-         * Appends and returns a new empty "weatherParameters" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$4);
-                return target;
-            }
-        }
-        
-        /**
-         * Gets the "longitude" element
-         */
-        public java.math.BigDecimal getLongitude()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LONGITUDE$6, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return target.getBigDecimalValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "longitude" element
-         */
-        public org.apache.xmlbeans.XmlDecimal xgetLongitude()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LONGITUDE$6, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "longitude" element
-         */
-        public void setLongitude(java.math.BigDecimal longitude)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LONGITUDE$6, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LONGITUDE$6);
-                }
-                target.setBigDecimalValue(longitude);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "longitude" element
-         */
-        public void xsetLongitude(org.apache.xmlbeans.XmlDecimal longitude)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LONGITUDE$6, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LONGITUDE$6);
-                }
-                target.set(longitude);
-            }
-        }
         
         /**
          * Gets the "latitude" element
@@ -365,7 +111,7 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LATITUDE$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LATITUDE$0, 0);
                 if (target == null)
                 {
                     return null;
@@ -383,7 +129,7 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LATITUDE$8, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LATITUDE$0, 0);
                 return target;
             }
         }
@@ -397,10 +143,10 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LATITUDE$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LATITUDE$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LATITUDE$8);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LATITUDE$0);
                 }
                 target.setBigDecimalValue(latitude);
             }
@@ -415,12 +161,216 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LATITUDE$8, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LATITUDE$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LATITUDE$8);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LATITUDE$0);
                 }
                 target.set(latitude);
+            }
+        }
+        
+        /**
+         * Gets the "longitude" element
+         */
+        public java.math.BigDecimal getLongitude()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LONGITUDE$2, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target.getBigDecimalValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "longitude" element
+         */
+        public org.apache.xmlbeans.XmlDecimal xgetLongitude()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDecimal target = null;
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LONGITUDE$2, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "longitude" element
+         */
+        public void setLongitude(java.math.BigDecimal longitude)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LONGITUDE$2, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LONGITUDE$2);
+                }
+                target.setBigDecimalValue(longitude);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "longitude" element
+         */
+        public void xsetLongitude(org.apache.xmlbeans.XmlDecimal longitude)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDecimal target = null;
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LONGITUDE$2, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LONGITUDE$2);
+                }
+                target.set(longitude);
+            }
+        }
+        
+        /**
+         * Gets the "product" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum getProduct()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PRODUCT$4, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum)target.getEnumValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "product" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType xgetProduct()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType)get_store().find_element_user(PRODUCT$4, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "product" element
+         */
+        public void setProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum product)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PRODUCT$4, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(PRODUCT$4);
+                }
+                target.setEnumValue(product);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "product" element
+         */
+        public void xsetProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType product)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType)get_store().find_element_user(PRODUCT$4, 0);
+                if (target == null)
+                {
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType)get_store().add_element_user(PRODUCT$4);
+                }
+                target.set(product);
+            }
+        }
+        
+        /**
+         * Gets the "startTime" element
+         */
+        public java.util.Calendar getStartTime()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$6, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target.getCalendarValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "startTime" element
+         */
+        public org.apache.xmlbeans.XmlDateTime xgetStartTime()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDateTime target = null;
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$6, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "startTime" element
+         */
+        public void setStartTime(java.util.Calendar startTime)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$6, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STARTTIME$6);
+                }
+                target.setCalendarValue(startTime);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "startTime" element
+         */
+        public void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDateTime target = null;
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$6, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(STARTTIME$6);
+                }
+                target.set(startTime);
             }
         }
         
@@ -433,7 +383,7 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$10, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$8, 0);
                 if (target == null)
                 {
                     return null;
@@ -451,7 +401,7 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$10, 0);
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$8, 0);
                 return target;
             }
         }
@@ -465,10 +415,10 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$10, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$8, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(ENDTIME$10);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(ENDTIME$8);
                 }
                 target.setCalendarValue(endTime);
             }
@@ -483,10 +433,10 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$10, 0);
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$8, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(ENDTIME$10);
+                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(ENDTIME$8);
                 }
                 target.set(endTime);
             }
@@ -501,7 +451,7 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UNIT$12, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UNIT$10, 0);
                 if (target == null)
                 {
                     return null;
@@ -519,7 +469,7 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType)get_store().find_element_user(UNIT$12, 0);
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType)get_store().find_element_user(UNIT$10, 0);
                 return target;
             }
         }
@@ -533,10 +483,10 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UNIT$12, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UNIT$10, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(UNIT$12);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(UNIT$10);
                 }
                 target.setEnumValue(unit);
             }
@@ -551,12 +501,62 @@ public class NDFDgenDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComp
             {
                 check_orphaned();
                 gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType)get_store().find_element_user(UNIT$12, 0);
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType)get_store().find_element_user(UNIT$10, 0);
                 if (target == null)
                 {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType)get_store().add_element_user(UNIT$12);
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType)get_store().add_element_user(UNIT$10);
                 }
                 target.set(unit);
+            }
+        }
+        
+        /**
+         * Gets the "weatherParameters" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$12, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "weatherParameters" element
+         */
+        public void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$12, 0);
+                if (target == null)
+                {
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$12);
+                }
+                target.set(weatherParameters);
+            }
+        }
+        
+        /**
+         * Appends and returns a new empty "weatherParameters" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$12);
+                return target;
             }
         }
     }

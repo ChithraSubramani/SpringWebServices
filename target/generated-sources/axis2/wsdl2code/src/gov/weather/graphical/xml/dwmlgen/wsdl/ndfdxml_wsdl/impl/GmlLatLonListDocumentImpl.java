@@ -86,17 +86,85 @@ public class GmlLatLonListDocumentImpl extends org.apache.xmlbeans.impl.values.X
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName REQUESTEDTIME$0 = 
+        private static final javax.xml.namespace.QName LISTLATLON$0 = 
+            new javax.xml.namespace.QName("", "listLatLon");
+        private static final javax.xml.namespace.QName REQUESTEDTIME$2 = 
             new javax.xml.namespace.QName("", "requestedTime");
-        private static final javax.xml.namespace.QName WEATHERPARAMETERS$2 = 
-            new javax.xml.namespace.QName("", "weatherParameters");
         private static final javax.xml.namespace.QName FEATURETYPE$4 = 
             new javax.xml.namespace.QName("", "featureType");
         private static final javax.xml.namespace.QName UNIT$6 = 
             new javax.xml.namespace.QName("", "Unit");
-        private static final javax.xml.namespace.QName LISTLATLON$8 = 
-            new javax.xml.namespace.QName("", "listLatLon");
+        private static final javax.xml.namespace.QName WEATHERPARAMETERS$8 = 
+            new javax.xml.namespace.QName("", "weatherParameters");
         
+        
+        /**
+         * Gets the "listLatLon" element
+         */
+        public java.lang.String getListLatLon()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target.getStringValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "listLatLon" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "listLatLon" element
+         */
+        public void setListLatLon(java.lang.String listLatLon)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$0);
+                }
+                target.setStringValue(listLatLon);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "listLatLon" element
+         */
+        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
+                if (target == null)
+                {
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$0);
+                }
+                target.set(listLatLon);
+            }
+        }
         
         /**
          * Gets the "requestedTime" element
@@ -107,7 +175,7 @@ public class GmlLatLonListDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(REQUESTEDTIME$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(REQUESTEDTIME$2, 0);
                 if (target == null)
                 {
                     return null;
@@ -125,7 +193,7 @@ public class GmlLatLonListDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(REQUESTEDTIME$0, 0);
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(REQUESTEDTIME$2, 0);
                 return target;
             }
         }
@@ -139,10 +207,10 @@ public class GmlLatLonListDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(REQUESTEDTIME$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(REQUESTEDTIME$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(REQUESTEDTIME$0);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(REQUESTEDTIME$2);
                 }
                 target.setCalendarValue(requestedTime);
             }
@@ -157,62 +225,12 @@ public class GmlLatLonListDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(REQUESTEDTIME$0, 0);
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(REQUESTEDTIME$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(REQUESTEDTIME$0);
+                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(REQUESTEDTIME$2);
                 }
                 target.set(requestedTime);
-            }
-        }
-        
-        /**
-         * Gets the "weatherParameters" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$2, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "weatherParameters" element
-         */
-        public void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$2, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$2);
-                }
-                target.set(weatherParameters);
-            }
-        }
-        
-        /**
-         * Appends and returns a new empty "weatherParameters" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$2);
-                return target;
             }
         }
         
@@ -353,70 +371,52 @@ public class GmlLatLonListDocumentImpl extends org.apache.xmlbeans.impl.values.X
         }
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "weatherParameters" element
          */
-        public java.lang.String getListLatLon()
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$8, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$8, 0);
                 if (target == null)
                 {
                     return null;
                 }
-                return target.getStringValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "listLatLon" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$8, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "listLatLon" element
+         * Sets the "weatherParameters" element
          */
-        public void setListLatLon(java.lang.String listLatLon)
+        public void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$8, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$8, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$8);
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$8);
                 }
-                target.setStringValue(listLatLon);
+                target.set(weatherParameters);
             }
         }
         
         /**
-         * Sets (as xml) the "listLatLon" element
+         * Appends and returns a new empty "weatherParameters" element
          */
-        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$8, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$8);
-                }
-                target.set(listLatLon);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$8);
+                return target;
             }
         }
     }

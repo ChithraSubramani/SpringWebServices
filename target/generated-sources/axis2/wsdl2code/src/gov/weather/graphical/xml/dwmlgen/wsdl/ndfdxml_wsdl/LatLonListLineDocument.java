@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface LatLonListLineDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListLineDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistline4bf2doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListLineDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistline4bf2doctype");
     
     /**
      * Gets the "LatLonListLine" element
@@ -42,7 +42,27 @@ public interface LatLonListLineDocument extends org.apache.xmlbeans.XmlObject
     public interface LatLonListLine extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListLine.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistline9eacelemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListLine.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistline9eacelemtype");
+        
+        /**
+         * Gets the "endPoint1Lat" element
+         */
+        java.math.BigDecimal getEndPoint1Lat();
+        
+        /**
+         * Gets (as xml) the "endPoint1Lat" element
+         */
+        org.apache.xmlbeans.XmlDecimal xgetEndPoint1Lat();
+        
+        /**
+         * Sets the "endPoint1Lat" element
+         */
+        void setEndPoint1Lat(java.math.BigDecimal endPoint1Lat);
+        
+        /**
+         * Sets (as xml) the "endPoint1Lat" element
+         */
+        void xsetEndPoint1Lat(org.apache.xmlbeans.XmlDecimal endPoint1Lat);
         
         /**
          * Gets the "endPoint1Lon" element
@@ -103,26 +123,6 @@ public interface LatLonListLineDocument extends org.apache.xmlbeans.XmlObject
          * Sets (as xml) the "endPoint2Lon" element
          */
         void xsetEndPoint2Lon(org.apache.xmlbeans.XmlDecimal endPoint2Lon);
-        
-        /**
-         * Gets the "endPoint1Lat" element
-         */
-        java.math.BigDecimal getEndPoint1Lat();
-        
-        /**
-         * Gets (as xml) the "endPoint1Lat" element
-         */
-        org.apache.xmlbeans.XmlDecimal xgetEndPoint1Lat();
-        
-        /**
-         * Sets the "endPoint1Lat" element
-         */
-        void setEndPoint1Lat(java.math.BigDecimal endPoint1Lat);
-        
-        /**
-         * Sets (as xml) the "endPoint1Lat" element
-         */
-        void xsetEndPoint1Lat(org.apache.xmlbeans.XmlDecimal endPoint1Lat);
         
         /**
          * A factory class with static methods for creating instances

@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface NDFDgenDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgen1906doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgen1906doctype");
     
     /**
      * Gets the "NDFDgen" element
@@ -42,62 +42,27 @@ public interface NDFDgenDocument extends org.apache.xmlbeans.XmlObject
     public interface NDFDgen extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgen.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgen6bbeelemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgen.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgen6bbeelemtype");
         
         /**
-         * Gets the "startTime" element
+         * Gets the "latitude" element
          */
-        java.util.Calendar getStartTime();
+        java.math.BigDecimal getLatitude();
         
         /**
-         * Gets (as xml) the "startTime" element
+         * Gets (as xml) the "latitude" element
          */
-        org.apache.xmlbeans.XmlDateTime xgetStartTime();
+        org.apache.xmlbeans.XmlDecimal xgetLatitude();
         
         /**
-         * Sets the "startTime" element
+         * Sets the "latitude" element
          */
-        void setStartTime(java.util.Calendar startTime);
+        void setLatitude(java.math.BigDecimal latitude);
         
         /**
-         * Sets (as xml) the "startTime" element
+         * Sets (as xml) the "latitude" element
          */
-        void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime);
-        
-        /**
-         * Gets the "product" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum getProduct();
-        
-        /**
-         * Gets (as xml) the "product" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType xgetProduct();
-        
-        /**
-         * Sets the "product" element
-         */
-        void setProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum product);
-        
-        /**
-         * Sets (as xml) the "product" element
-         */
-        void xsetProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType product);
-        
-        /**
-         * Gets the "weatherParameters" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters();
-        
-        /**
-         * Sets the "weatherParameters" element
-         */
-        void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters);
-        
-        /**
-         * Appends and returns a new empty "weatherParameters" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters();
+        void xsetLatitude(org.apache.xmlbeans.XmlDecimal latitude);
         
         /**
          * Gets the "longitude" element
@@ -120,24 +85,44 @@ public interface NDFDgenDocument extends org.apache.xmlbeans.XmlObject
         void xsetLongitude(org.apache.xmlbeans.XmlDecimal longitude);
         
         /**
-         * Gets the "latitude" element
+         * Gets the "product" element
          */
-        java.math.BigDecimal getLatitude();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum getProduct();
         
         /**
-         * Gets (as xml) the "latitude" element
+         * Gets (as xml) the "product" element
          */
-        org.apache.xmlbeans.XmlDecimal xgetLatitude();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType xgetProduct();
         
         /**
-         * Sets the "latitude" element
+         * Sets the "product" element
          */
-        void setLatitude(java.math.BigDecimal latitude);
+        void setProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType.Enum product);
         
         /**
-         * Sets (as xml) the "latitude" element
+         * Sets (as xml) the "product" element
          */
-        void xsetLatitude(org.apache.xmlbeans.XmlDecimal latitude);
+        void xsetProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType product);
+        
+        /**
+         * Gets the "startTime" element
+         */
+        java.util.Calendar getStartTime();
+        
+        /**
+         * Gets (as xml) the "startTime" element
+         */
+        org.apache.xmlbeans.XmlDateTime xgetStartTime();
+        
+        /**
+         * Sets the "startTime" element
+         */
+        void setStartTime(java.util.Calendar startTime);
+        
+        /**
+         * Sets (as xml) the "startTime" element
+         */
+        void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime);
         
         /**
          * Gets the "endTime" element
@@ -178,6 +163,21 @@ public interface NDFDgenDocument extends org.apache.xmlbeans.XmlObject
          * Sets (as xml) the "Unit" element
          */
         void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
+        
+        /**
+         * Gets the "weatherParameters" element
+         */
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters();
+        
+        /**
+         * Sets the "weatherParameters" element
+         */
+        void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters);
+        
+        /**
+         * Appends and returns a new empty "weatherParameters" element
+         */
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters();
         
         /**
          * A factory class with static methods for creating instances

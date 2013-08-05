@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface LatLonListSquareDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSquareDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistsquaref9e9doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSquareDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistsquaref9e9doctype");
     
     /**
      * Gets the "LatLonListSquare" element
@@ -42,27 +42,7 @@ public interface LatLonListSquareDocument extends org.apache.xmlbeans.XmlObject
     public interface LatLonListSquare extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSquare.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistsquare230celemtype");
-        
-        /**
-         * Gets the "distanceLat" element
-         */
-        java.math.BigDecimal getDistanceLat();
-        
-        /**
-         * Gets (as xml) the "distanceLat" element
-         */
-        org.apache.xmlbeans.XmlDecimal xgetDistanceLat();
-        
-        /**
-         * Sets the "distanceLat" element
-         */
-        void setDistanceLat(java.math.BigDecimal distanceLat);
-        
-        /**
-         * Sets (as xml) the "distanceLat" element
-         */
-        void xsetDistanceLat(org.apache.xmlbeans.XmlDecimal distanceLat);
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSquare.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistsquare230celemtype");
         
         /**
          * Gets the "centerPointLat" element
@@ -85,24 +65,44 @@ public interface LatLonListSquareDocument extends org.apache.xmlbeans.XmlObject
         void xsetCenterPointLat(org.apache.xmlbeans.XmlDecimal centerPointLat);
         
         /**
-         * Gets the "resolution" element
+         * Gets the "centerPointLon" element
          */
-        java.math.BigDecimal getResolution();
+        java.math.BigDecimal getCenterPointLon();
         
         /**
-         * Gets (as xml) the "resolution" element
+         * Gets (as xml) the "centerPointLon" element
          */
-        org.apache.xmlbeans.XmlDecimal xgetResolution();
+        org.apache.xmlbeans.XmlDecimal xgetCenterPointLon();
         
         /**
-         * Sets the "resolution" element
+         * Sets the "centerPointLon" element
          */
-        void setResolution(java.math.BigDecimal resolution);
+        void setCenterPointLon(java.math.BigDecimal centerPointLon);
         
         /**
-         * Sets (as xml) the "resolution" element
+         * Sets (as xml) the "centerPointLon" element
          */
-        void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution);
+        void xsetCenterPointLon(org.apache.xmlbeans.XmlDecimal centerPointLon);
+        
+        /**
+         * Gets the "distanceLat" element
+         */
+        java.math.BigDecimal getDistanceLat();
+        
+        /**
+         * Gets (as xml) the "distanceLat" element
+         */
+        org.apache.xmlbeans.XmlDecimal xgetDistanceLat();
+        
+        /**
+         * Sets the "distanceLat" element
+         */
+        void setDistanceLat(java.math.BigDecimal distanceLat);
+        
+        /**
+         * Sets (as xml) the "distanceLat" element
+         */
+        void xsetDistanceLat(org.apache.xmlbeans.XmlDecimal distanceLat);
         
         /**
          * Gets the "distanceLon" element
@@ -125,24 +125,24 @@ public interface LatLonListSquareDocument extends org.apache.xmlbeans.XmlObject
         void xsetDistanceLon(org.apache.xmlbeans.XmlDecimal distanceLon);
         
         /**
-         * Gets the "centerPointLon" element
+         * Gets the "resolution" element
          */
-        java.math.BigDecimal getCenterPointLon();
+        java.math.BigDecimal getResolution();
         
         /**
-         * Gets (as xml) the "centerPointLon" element
+         * Gets (as xml) the "resolution" element
          */
-        org.apache.xmlbeans.XmlDecimal xgetCenterPointLon();
+        org.apache.xmlbeans.XmlDecimal xgetResolution();
         
         /**
-         * Sets the "centerPointLon" element
+         * Sets the "resolution" element
          */
-        void setCenterPointLon(java.math.BigDecimal centerPointLon);
+        void setResolution(java.math.BigDecimal resolution);
         
         /**
-         * Sets (as xml) the "centerPointLon" element
+         * Sets (as xml) the "resolution" element
          */
-        void xsetCenterPointLon(org.apache.xmlbeans.XmlDecimal centerPointLon);
+        void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution);
         
         /**
          * A factory class with static methods for creating instances

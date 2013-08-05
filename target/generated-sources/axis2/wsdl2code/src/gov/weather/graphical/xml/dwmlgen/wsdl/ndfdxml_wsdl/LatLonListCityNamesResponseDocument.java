@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface LatLonListCityNamesResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListCityNamesResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistcitynamesresponse804edoctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListCityNamesResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistcitynamesresponse804edoctype");
     
     /**
      * Gets the "LatLonListCityNamesResponse" element
@@ -42,7 +42,7 @@ public interface LatLonListCityNamesResponseDocument extends org.apache.xmlbeans
     public interface LatLonListCityNamesResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListCityNamesResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistcitynamesresponse7aceelemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListCityNamesResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistcitynamesresponse7aceelemtype");
         
         /**
          * Gets the "listCityNamesOut" element

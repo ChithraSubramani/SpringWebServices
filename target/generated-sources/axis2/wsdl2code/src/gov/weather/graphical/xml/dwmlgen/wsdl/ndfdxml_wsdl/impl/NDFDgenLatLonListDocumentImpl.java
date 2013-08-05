@@ -86,85 +86,85 @@ public class NDFDgenLatLonListDocumentImpl extends org.apache.xmlbeans.impl.valu
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName STARTTIME$0 = 
-            new javax.xml.namespace.QName("", "startTime");
+        private static final javax.xml.namespace.QName LISTLATLON$0 = 
+            new javax.xml.namespace.QName("", "listLatLon");
         private static final javax.xml.namespace.QName PRODUCT$2 = 
             new javax.xml.namespace.QName("", "product");
-        private static final javax.xml.namespace.QName WEATHERPARAMETERS$4 = 
-            new javax.xml.namespace.QName("", "weatherParameters");
+        private static final javax.xml.namespace.QName STARTTIME$4 = 
+            new javax.xml.namespace.QName("", "startTime");
         private static final javax.xml.namespace.QName ENDTIME$6 = 
             new javax.xml.namespace.QName("", "endTime");
         private static final javax.xml.namespace.QName UNIT$8 = 
             new javax.xml.namespace.QName("", "Unit");
-        private static final javax.xml.namespace.QName LISTLATLON$10 = 
-            new javax.xml.namespace.QName("", "listLatLon");
+        private static final javax.xml.namespace.QName WEATHERPARAMETERS$10 = 
+            new javax.xml.namespace.QName("", "weatherParameters");
         
         
         /**
-         * Gets the "startTime" element
+         * Gets the "listLatLon" element
          */
-        public java.util.Calendar getStartTime()
+        public java.lang.String getListLatLon()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
                 if (target == null)
                 {
                     return null;
                 }
-                return target.getCalendarValue();
+                return target.getStringValue();
             }
         }
         
         /**
-         * Gets (as xml) the "startTime" element
+         * Gets (as xml) the "listLatLon" element
          */
-        public org.apache.xmlbeans.XmlDateTime xgetStartTime()
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$0, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "startTime" element
+         * Sets the "listLatLon" element
          */
-        public void setStartTime(java.util.Calendar startTime)
+        public void setListLatLon(java.lang.String listLatLon)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STARTTIME$0);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$0);
                 }
-                target.setCalendarValue(startTime);
+                target.setStringValue(listLatLon);
             }
         }
         
         /**
-         * Sets (as xml) the "startTime" element
+         * Sets (as xml) the "listLatLon" element
          */
-        public void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime)
+        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$0, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(STARTTIME$0);
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$0);
                 }
-                target.set(startTime);
+                target.set(listLatLon);
             }
         }
         
@@ -237,52 +237,70 @@ public class NDFDgenLatLonListDocumentImpl extends org.apache.xmlbeans.impl.valu
         }
         
         /**
-         * Gets the "weatherParameters" element
+         * Gets the "startTime" element
          */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters()
+        public java.util.Calendar getStartTime()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$4, 0);
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$4, 0);
                 if (target == null)
                 {
                     return null;
                 }
+                return target.getCalendarValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "startTime" element
+         */
+        public org.apache.xmlbeans.XmlDateTime xgetStartTime()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDateTime target = null;
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$4, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "weatherParameters" element
+         * Sets the "startTime" element
          */
-        public void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters)
+        public void setStartTime(java.util.Calendar startTime)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$4, 0);
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTTIME$4, 0);
                 if (target == null)
                 {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$4);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STARTTIME$4);
                 }
-                target.set(weatherParameters);
+                target.setCalendarValue(startTime);
             }
         }
         
         /**
-         * Appends and returns a new empty "weatherParameters" element
+         * Sets (as xml) the "startTime" element
          */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters()
+        public void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$4);
-                return target;
+                org.apache.xmlbeans.XmlDateTime target = null;
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(STARTTIME$4, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(STARTTIME$4);
+                }
+                target.set(startTime);
             }
         }
         
@@ -423,70 +441,52 @@ public class NDFDgenLatLonListDocumentImpl extends org.apache.xmlbeans.impl.valu
         }
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "weatherParameters" element
          */
-        public java.lang.String getListLatLon()
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$10, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$10, 0);
                 if (target == null)
                 {
                     return null;
                 }
-                return target.getStringValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "listLatLon" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$10, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "listLatLon" element
+         * Sets the "weatherParameters" element
          */
-        public void setListLatLon(java.lang.String listLatLon)
+        public void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$10, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().find_element_user(WEATHERPARAMETERS$10, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$10);
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$10);
                 }
-                target.setStringValue(listLatLon);
+                target.set(weatherParameters);
             }
         }
         
         /**
-         * Sets (as xml) the "listLatLon" element
+         * Appends and returns a new empty "weatherParameters" element
          */
-        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$10, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$10);
-                }
-                target.set(listLatLon);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType)get_store().add_element_user(WEATHERPARAMETERS$10);
+                return target;
             }
         }
     }

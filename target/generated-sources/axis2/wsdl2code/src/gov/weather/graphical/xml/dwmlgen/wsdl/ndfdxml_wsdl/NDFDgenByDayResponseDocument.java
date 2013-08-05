@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface NDFDgenByDayResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenbydayresponsecfa6doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenbydayresponsecfa6doctype");
     
     /**
      * Gets the "NDFDgenByDayResponse" element
@@ -42,7 +42,7 @@ public interface NDFDgenByDayResponseDocument extends org.apache.xmlbeans.XmlObj
     public interface NDFDgenByDayResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenbydayresponse6d6celemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenbydayresponse6d6celemtype");
         
         /**
          * Gets the "dwmlByDayOut" element

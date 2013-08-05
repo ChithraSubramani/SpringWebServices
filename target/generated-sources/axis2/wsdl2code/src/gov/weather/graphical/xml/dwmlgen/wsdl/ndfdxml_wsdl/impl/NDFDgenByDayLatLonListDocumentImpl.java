@@ -86,17 +86,85 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName STARTDATE$0 = 
+        private static final javax.xml.namespace.QName LISTLATLON$0 = 
+            new javax.xml.namespace.QName("", "listLatLon");
+        private static final javax.xml.namespace.QName STARTDATE$2 = 
             new javax.xml.namespace.QName("", "startDate");
-        private static final javax.xml.namespace.QName NUMDAYS$2 = 
+        private static final javax.xml.namespace.QName NUMDAYS$4 = 
             new javax.xml.namespace.QName("", "numDays");
-        private static final javax.xml.namespace.QName FORMAT$4 = 
-            new javax.xml.namespace.QName("", "format");
         private static final javax.xml.namespace.QName UNIT$6 = 
             new javax.xml.namespace.QName("", "Unit");
-        private static final javax.xml.namespace.QName LISTLATLON$8 = 
-            new javax.xml.namespace.QName("", "listLatLon");
+        private static final javax.xml.namespace.QName FORMAT$8 = 
+            new javax.xml.namespace.QName("", "format");
         
+        
+        /**
+         * Gets the "listLatLon" element
+         */
+        public java.lang.String getListLatLon()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target.getStringValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "listLatLon" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "listLatLon" element
+         */
+        public void setListLatLon(java.lang.String listLatLon)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$0);
+                }
+                target.setStringValue(listLatLon);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "listLatLon" element
+         */
+        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
+                if (target == null)
+                {
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$0);
+                }
+                target.set(listLatLon);
+            }
+        }
         
         /**
          * Gets the "startDate" element
@@ -107,7 +175,7 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTDATE$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTDATE$2, 0);
                 if (target == null)
                 {
                     return null;
@@ -125,7 +193,7 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDate target = null;
-                target = (org.apache.xmlbeans.XmlDate)get_store().find_element_user(STARTDATE$0, 0);
+                target = (org.apache.xmlbeans.XmlDate)get_store().find_element_user(STARTDATE$2, 0);
                 return target;
             }
         }
@@ -139,10 +207,10 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTDATE$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STARTDATE$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STARTDATE$0);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STARTDATE$2);
                 }
                 target.setCalendarValue(startDate);
             }
@@ -157,10 +225,10 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDate target = null;
-                target = (org.apache.xmlbeans.XmlDate)get_store().find_element_user(STARTDATE$0, 0);
+                target = (org.apache.xmlbeans.XmlDate)get_store().find_element_user(STARTDATE$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDate)get_store().add_element_user(STARTDATE$0);
+                    target = (org.apache.xmlbeans.XmlDate)get_store().add_element_user(STARTDATE$2);
                 }
                 target.set(startDate);
             }
@@ -175,7 +243,7 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(NUMDAYS$2, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(NUMDAYS$4, 0);
                 if (target == null)
                 {
                     return null;
@@ -193,7 +261,7 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlInteger target = null;
-                target = (org.apache.xmlbeans.XmlInteger)get_store().find_element_user(NUMDAYS$2, 0);
+                target = (org.apache.xmlbeans.XmlInteger)get_store().find_element_user(NUMDAYS$4, 0);
                 return target;
             }
         }
@@ -207,10 +275,10 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(NUMDAYS$2, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(NUMDAYS$4, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(NUMDAYS$2);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(NUMDAYS$4);
                 }
                 target.setBigIntegerValue(numDays);
             }
@@ -225,80 +293,12 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlInteger target = null;
-                target = (org.apache.xmlbeans.XmlInteger)get_store().find_element_user(NUMDAYS$2, 0);
+                target = (org.apache.xmlbeans.XmlInteger)get_store().find_element_user(NUMDAYS$4, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlInteger)get_store().add_element_user(NUMDAYS$2);
+                    target = (org.apache.xmlbeans.XmlInteger)get_store().add_element_user(NUMDAYS$4);
                 }
                 target.set(numDays);
-            }
-        }
-        
-        /**
-         * Gets the "format" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum getFormat()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FORMAT$4, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum)target.getEnumValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "format" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType xgetFormat()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType)get_store().find_element_user(FORMAT$4, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "format" element
-         */
-        public void setFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum format)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FORMAT$4, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(FORMAT$4);
-                }
-                target.setEnumValue(format);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "format" element
-         */
-        public void xsetFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType format)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType)get_store().find_element_user(FORMAT$4, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType)get_store().add_element_user(FORMAT$4);
-                }
-                target.set(format);
             }
         }
         
@@ -371,70 +371,70 @@ public class NDFDgenByDayLatLonListDocumentImpl extends org.apache.xmlbeans.impl
         }
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "format" element
          */
-        public java.lang.String getListLatLon()
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum getFormat()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FORMAT$8, 0);
                 if (target == null)
                 {
                     return null;
                 }
-                return target.getStringValue();
+                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum)target.getEnumValue();
             }
         }
         
         /**
-         * Gets (as xml) the "listLatLon" element
+         * Gets (as xml) the "format" element
          */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType xgetFormat()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$8, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType)get_store().find_element_user(FORMAT$8, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "listLatLon" element
+         * Sets the "format" element
          */
-        public void setListLatLon(java.lang.String listLatLon)
+        public void setFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum format)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FORMAT$8, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$8);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(FORMAT$8);
                 }
-                target.setStringValue(listLatLon);
+                target.setEnumValue(format);
             }
         }
         
         /**
-         * Sets (as xml) the "listLatLon" element
+         * Sets (as xml) the "format" element
          */
-        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
+        public void xsetFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType format)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$8, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType)get_store().find_element_user(FORMAT$8, 0);
                 if (target == null)
                 {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$8);
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType)get_store().add_element_user(FORMAT$8);
                 }
-                target.set(listLatLon);
+                target.set(format);
             }
         }
     }

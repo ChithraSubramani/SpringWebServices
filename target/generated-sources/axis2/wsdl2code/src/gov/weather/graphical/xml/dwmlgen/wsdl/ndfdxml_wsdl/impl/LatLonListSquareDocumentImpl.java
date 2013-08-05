@@ -86,85 +86,17 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName DISTANCELAT$0 = 
-            new javax.xml.namespace.QName("", "distanceLat");
-        private static final javax.xml.namespace.QName CENTERPOINTLAT$2 = 
+        private static final javax.xml.namespace.QName CENTERPOINTLAT$0 = 
             new javax.xml.namespace.QName("", "centerPointLat");
-        private static final javax.xml.namespace.QName RESOLUTION$4 = 
-            new javax.xml.namespace.QName("", "resolution");
+        private static final javax.xml.namespace.QName CENTERPOINTLON$2 = 
+            new javax.xml.namespace.QName("", "centerPointLon");
+        private static final javax.xml.namespace.QName DISTANCELAT$4 = 
+            new javax.xml.namespace.QName("", "distanceLat");
         private static final javax.xml.namespace.QName DISTANCELON$6 = 
             new javax.xml.namespace.QName("", "distanceLon");
-        private static final javax.xml.namespace.QName CENTERPOINTLON$8 = 
-            new javax.xml.namespace.QName("", "centerPointLon");
+        private static final javax.xml.namespace.QName RESOLUTION$8 = 
+            new javax.xml.namespace.QName("", "resolution");
         
-        
-        /**
-         * Gets the "distanceLat" element
-         */
-        public java.math.BigDecimal getDistanceLat()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DISTANCELAT$0, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return target.getBigDecimalValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "distanceLat" element
-         */
-        public org.apache.xmlbeans.XmlDecimal xgetDistanceLat()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(DISTANCELAT$0, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "distanceLat" element
-         */
-        public void setDistanceLat(java.math.BigDecimal distanceLat)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DISTANCELAT$0, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(DISTANCELAT$0);
-                }
-                target.setBigDecimalValue(distanceLat);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "distanceLat" element
-         */
-        public void xsetDistanceLat(org.apache.xmlbeans.XmlDecimal distanceLat)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(DISTANCELAT$0, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(DISTANCELAT$0);
-                }
-                target.set(distanceLat);
-            }
-        }
         
         /**
          * Gets the "centerPointLat" element
@@ -175,7 +107,7 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLAT$2, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLAT$0, 0);
                 if (target == null)
                 {
                     return null;
@@ -193,7 +125,7 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLAT$2, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLAT$0, 0);
                 return target;
             }
         }
@@ -207,10 +139,10 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLAT$2, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLAT$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(CENTERPOINTLAT$2);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(CENTERPOINTLAT$0);
                 }
                 target.setBigDecimalValue(centerPointLat);
             }
@@ -225,25 +157,25 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLAT$2, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLAT$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(CENTERPOINTLAT$2);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(CENTERPOINTLAT$0);
                 }
                 target.set(centerPointLat);
             }
         }
         
         /**
-         * Gets the "resolution" element
+         * Gets the "centerPointLon" element
          */
-        public java.math.BigDecimal getResolution()
+        public java.math.BigDecimal getCenterPointLon()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$4, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLON$2, 0);
                 if (target == null)
                 {
                     return null;
@@ -253,52 +185,120 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
         }
         
         /**
-         * Gets (as xml) the "resolution" element
+         * Gets (as xml) the "centerPointLon" element
          */
-        public org.apache.xmlbeans.XmlDecimal xgetResolution()
+        public org.apache.xmlbeans.XmlDecimal xgetCenterPointLon()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$4, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLON$2, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "resolution" element
+         * Sets the "centerPointLon" element
          */
-        public void setResolution(java.math.BigDecimal resolution)
+        public void setCenterPointLon(java.math.BigDecimal centerPointLon)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$4, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLON$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(RESOLUTION$4);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(CENTERPOINTLON$2);
                 }
-                target.setBigDecimalValue(resolution);
+                target.setBigDecimalValue(centerPointLon);
             }
         }
         
         /**
-         * Sets (as xml) the "resolution" element
+         * Sets (as xml) the "centerPointLon" element
          */
-        public void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution)
+        public void xsetCenterPointLon(org.apache.xmlbeans.XmlDecimal centerPointLon)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$4, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLON$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(RESOLUTION$4);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(CENTERPOINTLON$2);
                 }
-                target.set(resolution);
+                target.set(centerPointLon);
+            }
+        }
+        
+        /**
+         * Gets the "distanceLat" element
+         */
+        public java.math.BigDecimal getDistanceLat()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DISTANCELAT$4, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target.getBigDecimalValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "distanceLat" element
+         */
+        public org.apache.xmlbeans.XmlDecimal xgetDistanceLat()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDecimal target = null;
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(DISTANCELAT$4, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "distanceLat" element
+         */
+        public void setDistanceLat(java.math.BigDecimal distanceLat)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DISTANCELAT$4, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(DISTANCELAT$4);
+                }
+                target.setBigDecimalValue(distanceLat);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "distanceLat" element
+         */
+        public void xsetDistanceLat(org.apache.xmlbeans.XmlDecimal distanceLat)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDecimal target = null;
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(DISTANCELAT$4, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(DISTANCELAT$4);
+                }
+                target.set(distanceLat);
             }
         }
         
@@ -371,15 +371,15 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
         }
         
         /**
-         * Gets the "centerPointLon" element
+         * Gets the "resolution" element
          */
-        public java.math.BigDecimal getCenterPointLon()
+        public java.math.BigDecimal getResolution()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLON$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$8, 0);
                 if (target == null)
                 {
                     return null;
@@ -389,52 +389,52 @@ public class LatLonListSquareDocumentImpl extends org.apache.xmlbeans.impl.value
         }
         
         /**
-         * Gets (as xml) the "centerPointLon" element
+         * Gets (as xml) the "resolution" element
          */
-        public org.apache.xmlbeans.XmlDecimal xgetCenterPointLon()
+        public org.apache.xmlbeans.XmlDecimal xgetResolution()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLON$8, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$8, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "centerPointLon" element
+         * Sets the "resolution" element
          */
-        public void setCenterPointLon(java.math.BigDecimal centerPointLon)
+        public void setResolution(java.math.BigDecimal resolution)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(CENTERPOINTLON$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$8, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(CENTERPOINTLON$8);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(RESOLUTION$8);
                 }
-                target.setBigDecimalValue(centerPointLon);
+                target.setBigDecimalValue(resolution);
             }
         }
         
         /**
-         * Sets (as xml) the "centerPointLon" element
+         * Sets (as xml) the "resolution" element
          */
-        public void xsetCenterPointLon(org.apache.xmlbeans.XmlDecimal centerPointLon)
+        public void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(CENTERPOINTLON$8, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$8, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(CENTERPOINTLON$8);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(RESOLUTION$8);
                 }
-                target.set(centerPointLon);
+                target.set(resolution);
             }
         }
     }

@@ -16,7 +16,7 @@ package gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd;
 public interface ListLatLonType extends org.apache.xmlbeans.XmlString
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(ListLatLonType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("listlatlontypee45dtype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(ListLatLonType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("listlatlontypee45dtype");
     
     /**
      * A factory class with static methods for creating instances

@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface GmlLatLonListDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonListDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmllatlonlist96f2doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonListDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmllatlonlist96f2doctype");
     
     /**
      * Gets the "GmlLatLonList" element
@@ -42,7 +42,27 @@ public interface GmlLatLonListDocument extends org.apache.xmlbeans.XmlObject
     public interface GmlLatLonList extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonList.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmllatlonlista256elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonList.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmllatlonlista256elemtype");
+        
+        /**
+         * Gets the "listLatLon" element
+         */
+        java.lang.String getListLatLon();
+        
+        /**
+         * Gets (as xml) the "listLatLon" element
+         */
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
+        
+        /**
+         * Sets the "listLatLon" element
+         */
+        void setListLatLon(java.lang.String listLatLon);
+        
+        /**
+         * Sets (as xml) the "listLatLon" element
+         */
+        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
         
         /**
          * Gets the "requestedTime" element
@@ -63,21 +83,6 @@ public interface GmlLatLonListDocument extends org.apache.xmlbeans.XmlObject
          * Sets (as xml) the "requestedTime" element
          */
         void xsetRequestedTime(org.apache.xmlbeans.XmlDateTime requestedTime);
-        
-        /**
-         * Gets the "weatherParameters" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters();
-        
-        /**
-         * Sets the "weatherParameters" element
-         */
-        void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters);
-        
-        /**
-         * Appends and returns a new empty "weatherParameters" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters();
         
         /**
          * Gets the "featureType" element
@@ -120,24 +125,19 @@ public interface GmlLatLonListDocument extends org.apache.xmlbeans.XmlObject
         void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "weatherParameters" element
          */
-        java.lang.String getListLatLon();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters();
         
         /**
-         * Gets (as xml) the "listLatLon" element
+         * Sets the "weatherParameters" element
          */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
+        void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters);
         
         /**
-         * Sets the "listLatLon" element
+         * Appends and returns a new empty "weatherParameters" element
          */
-        void setListLatLon(java.lang.String listLatLon);
-        
-        /**
-         * Sets (as xml) the "listLatLon" element
-         */
-        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters();
         
         /**
          * A factory class with static methods for creating instances

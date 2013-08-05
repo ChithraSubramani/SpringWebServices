@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface NDFDgenByDayDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenbyday96a7doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenbyday96a7doctype");
     
     /**
      * Gets the "NDFDgenByDay" element
@@ -42,7 +42,47 @@ public interface NDFDgenByDayDocument extends org.apache.xmlbeans.XmlObject
     public interface NDFDgenByDay extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDay.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenbydaye04celemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDay.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenbydaye04celemtype");
+        
+        /**
+         * Gets the "latitude" element
+         */
+        java.math.BigDecimal getLatitude();
+        
+        /**
+         * Gets (as xml) the "latitude" element
+         */
+        org.apache.xmlbeans.XmlDecimal xgetLatitude();
+        
+        /**
+         * Sets the "latitude" element
+         */
+        void setLatitude(java.math.BigDecimal latitude);
+        
+        /**
+         * Sets (as xml) the "latitude" element
+         */
+        void xsetLatitude(org.apache.xmlbeans.XmlDecimal latitude);
+        
+        /**
+         * Gets the "longitude" element
+         */
+        java.math.BigDecimal getLongitude();
+        
+        /**
+         * Gets (as xml) the "longitude" element
+         */
+        org.apache.xmlbeans.XmlDecimal xgetLongitude();
+        
+        /**
+         * Sets the "longitude" element
+         */
+        void setLongitude(java.math.BigDecimal longitude);
+        
+        /**
+         * Sets (as xml) the "longitude" element
+         */
+        void xsetLongitude(org.apache.xmlbeans.XmlDecimal longitude);
         
         /**
          * Gets the "startDate" element
@@ -85,24 +125,24 @@ public interface NDFDgenByDayDocument extends org.apache.xmlbeans.XmlObject
         void xsetNumDays(org.apache.xmlbeans.XmlInteger numDays);
         
         /**
-         * Gets the "longitude" element
+         * Gets the "Unit" element
          */
-        java.math.BigDecimal getLongitude();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType.Enum getUnit();
         
         /**
-         * Gets (as xml) the "longitude" element
+         * Gets (as xml) the "Unit" element
          */
-        org.apache.xmlbeans.XmlDecimal xgetLongitude();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType xgetUnit();
         
         /**
-         * Sets the "longitude" element
+         * Sets the "Unit" element
          */
-        void setLongitude(java.math.BigDecimal longitude);
+        void setUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType.Enum unit);
         
         /**
-         * Sets (as xml) the "longitude" element
+         * Sets (as xml) the "Unit" element
          */
-        void xsetLongitude(org.apache.xmlbeans.XmlDecimal longitude);
+        void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
         
         /**
          * Gets the "format" element
@@ -123,46 +163,6 @@ public interface NDFDgenByDayDocument extends org.apache.xmlbeans.XmlObject
          * Sets (as xml) the "format" element
          */
         void xsetFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType format);
-        
-        /**
-         * Gets the "latitude" element
-         */
-        java.math.BigDecimal getLatitude();
-        
-        /**
-         * Gets (as xml) the "latitude" element
-         */
-        org.apache.xmlbeans.XmlDecimal xgetLatitude();
-        
-        /**
-         * Sets the "latitude" element
-         */
-        void setLatitude(java.math.BigDecimal latitude);
-        
-        /**
-         * Sets (as xml) the "latitude" element
-         */
-        void xsetLatitude(org.apache.xmlbeans.XmlDecimal latitude);
-        
-        /**
-         * Gets the "Unit" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType.Enum getUnit();
-        
-        /**
-         * Gets (as xml) the "Unit" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType xgetUnit();
-        
-        /**
-         * Sets the "Unit" element
-         */
-        void setUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType.Enum unit);
-        
-        /**
-         * Sets (as xml) the "Unit" element
-         */
-        void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
         
         /**
          * A factory class with static methods for creating instances

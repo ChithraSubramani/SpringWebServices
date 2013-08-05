@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface GmlTimeSeriesResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeriesResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmltimeseriesresponse02f7doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeriesResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmltimeseriesresponse02f7doctype");
     
     /**
      * Gets the "GmlTimeSeriesResponse" element
@@ -42,7 +42,7 @@ public interface GmlTimeSeriesResponseDocument extends org.apache.xmlbeans.XmlOb
     public interface GmlTimeSeriesResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeriesResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmltimeseriesresponsec860elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeriesResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmltimeseriesresponsec860elemtype");
         
         /**
          * Gets the "dwGmlOut" element

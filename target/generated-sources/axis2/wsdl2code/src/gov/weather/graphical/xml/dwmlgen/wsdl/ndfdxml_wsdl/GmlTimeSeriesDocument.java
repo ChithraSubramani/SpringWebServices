@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface GmlTimeSeriesDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeriesDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmltimeseriesaaf8doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeriesDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmltimeseriesaaf8doctype");
     
     /**
      * Gets the "GmlTimeSeries" element
@@ -42,27 +42,27 @@ public interface GmlTimeSeriesDocument extends org.apache.xmlbeans.XmlObject
     public interface GmlTimeSeries extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeries.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmltimeseriesfe62elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlTimeSeries.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmltimeseriesfe62elemtype");
         
         /**
-         * Gets the "propertyName" element
+         * Gets the "listLatLon" element
          */
-        java.lang.String getPropertyName();
+        java.lang.String getListLatLon();
         
         /**
-         * Gets (as xml) the "propertyName" element
+         * Gets (as xml) the "listLatLon" element
          */
-        org.apache.xmlbeans.XmlString xgetPropertyName();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
         
         /**
-         * Sets the "propertyName" element
+         * Sets the "listLatLon" element
          */
-        void setPropertyName(java.lang.String propertyName);
+        void setListLatLon(java.lang.String listLatLon);
         
         /**
-         * Sets (as xml) the "propertyName" element
+         * Sets (as xml) the "listLatLon" element
          */
-        void xsetPropertyName(org.apache.xmlbeans.XmlString propertyName);
+        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
         
         /**
          * Gets the "startTime" element
@@ -83,6 +83,26 @@ public interface GmlTimeSeriesDocument extends org.apache.xmlbeans.XmlObject
          * Sets (as xml) the "startTime" element
          */
         void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime);
+        
+        /**
+         * Gets the "endTime" element
+         */
+        java.util.Calendar getEndTime();
+        
+        /**
+         * Gets (as xml) the "endTime" element
+         */
+        org.apache.xmlbeans.XmlDateTime xgetEndTime();
+        
+        /**
+         * Sets the "endTime" element
+         */
+        void setEndTime(java.util.Calendar endTime);
+        
+        /**
+         * Sets (as xml) the "endTime" element
+         */
+        void xsetEndTime(org.apache.xmlbeans.XmlDateTime endTime);
         
         /**
          * Gets the "compType" element
@@ -125,26 +145,6 @@ public interface GmlTimeSeriesDocument extends org.apache.xmlbeans.XmlObject
         void xsetFeatureType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType featureType);
         
         /**
-         * Gets the "endTime" element
-         */
-        java.util.Calendar getEndTime();
-        
-        /**
-         * Gets (as xml) the "endTime" element
-         */
-        org.apache.xmlbeans.XmlDateTime xgetEndTime();
-        
-        /**
-         * Sets the "endTime" element
-         */
-        void setEndTime(java.util.Calendar endTime);
-        
-        /**
-         * Sets (as xml) the "endTime" element
-         */
-        void xsetEndTime(org.apache.xmlbeans.XmlDateTime endTime);
-        
-        /**
          * Gets the "Unit" element
          */
         gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType.Enum getUnit();
@@ -165,24 +165,24 @@ public interface GmlTimeSeriesDocument extends org.apache.xmlbeans.XmlObject
         void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "propertyName" element
          */
-        java.lang.String getListLatLon();
+        java.lang.String getPropertyName();
         
         /**
-         * Gets (as xml) the "listLatLon" element
+         * Gets (as xml) the "propertyName" element
          */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
+        org.apache.xmlbeans.XmlString xgetPropertyName();
         
         /**
-         * Sets the "listLatLon" element
+         * Sets the "propertyName" element
          */
-        void setListLatLon(java.lang.String listLatLon);
+        void setPropertyName(java.lang.String propertyName);
         
         /**
-         * Sets (as xml) the "listLatLon" element
+         * Sets (as xml) the "propertyName" element
          */
-        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
+        void xsetPropertyName(org.apache.xmlbeans.XmlString propertyName);
         
         /**
          * A factory class with static methods for creating instances

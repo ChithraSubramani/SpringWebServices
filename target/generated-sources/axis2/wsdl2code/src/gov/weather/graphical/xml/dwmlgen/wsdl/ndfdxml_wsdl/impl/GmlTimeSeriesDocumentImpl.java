@@ -86,32 +86,32 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName PROPERTYNAME$0 = 
-            new javax.xml.namespace.QName("", "propertyName");
+        private static final javax.xml.namespace.QName LISTLATLON$0 = 
+            new javax.xml.namespace.QName("", "listLatLon");
         private static final javax.xml.namespace.QName STARTTIME$2 = 
             new javax.xml.namespace.QName("", "startTime");
-        private static final javax.xml.namespace.QName COMPTYPE$4 = 
-            new javax.xml.namespace.QName("", "compType");
-        private static final javax.xml.namespace.QName FEATURETYPE$6 = 
-            new javax.xml.namespace.QName("", "featureType");
-        private static final javax.xml.namespace.QName ENDTIME$8 = 
+        private static final javax.xml.namespace.QName ENDTIME$4 = 
             new javax.xml.namespace.QName("", "endTime");
+        private static final javax.xml.namespace.QName COMPTYPE$6 = 
+            new javax.xml.namespace.QName("", "compType");
+        private static final javax.xml.namespace.QName FEATURETYPE$8 = 
+            new javax.xml.namespace.QName("", "featureType");
         private static final javax.xml.namespace.QName UNIT$10 = 
             new javax.xml.namespace.QName("", "Unit");
-        private static final javax.xml.namespace.QName LISTLATLON$12 = 
-            new javax.xml.namespace.QName("", "listLatLon");
+        private static final javax.xml.namespace.QName PROPERTYNAME$12 = 
+            new javax.xml.namespace.QName("", "propertyName");
         
         
         /**
-         * Gets the "propertyName" element
+         * Gets the "listLatLon" element
          */
-        public java.lang.String getPropertyName()
+        public java.lang.String getListLatLon()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PROPERTYNAME$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
                 if (target == null)
                 {
                     return null;
@@ -121,52 +121,52 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
         }
         
         /**
-         * Gets (as xml) the "propertyName" element
+         * Gets (as xml) the "listLatLon" element
          */
-        public org.apache.xmlbeans.XmlString xgetPropertyName()
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlString target = null;
-                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(PROPERTYNAME$0, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "propertyName" element
+         * Sets the "listLatLon" element
          */
-        public void setPropertyName(java.lang.String propertyName)
+        public void setListLatLon(java.lang.String listLatLon)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PROPERTYNAME$0, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(PROPERTYNAME$0);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$0);
                 }
-                target.setStringValue(propertyName);
+                target.setStringValue(listLatLon);
             }
         }
         
         /**
-         * Sets (as xml) the "propertyName" element
+         * Sets (as xml) the "listLatLon" element
          */
-        public void xsetPropertyName(org.apache.xmlbeans.XmlString propertyName)
+        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlString target = null;
-                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(PROPERTYNAME$0, 0);
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(PROPERTYNAME$0);
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$0);
                 }
-                target.set(propertyName);
+                target.set(listLatLon);
             }
         }
         
@@ -239,142 +239,6 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
         }
         
         /**
-         * Gets the "compType" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType.Enum getCompType()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(COMPTYPE$4, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType.Enum)target.getEnumValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "compType" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType xgetCompType()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType)get_store().find_element_user(COMPTYPE$4, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "compType" element
-         */
-        public void setCompType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType.Enum compType)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(COMPTYPE$4, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(COMPTYPE$4);
-                }
-                target.setEnumValue(compType);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "compType" element
-         */
-        public void xsetCompType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType compType)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType)get_store().find_element_user(COMPTYPE$4, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType)get_store().add_element_user(COMPTYPE$4);
-                }
-                target.set(compType);
-            }
-        }
-        
-        /**
-         * Gets the "featureType" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType.Enum getFeatureType()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FEATURETYPE$6, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType.Enum)target.getEnumValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "featureType" element
-         */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType xgetFeatureType()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType)get_store().find_element_user(FEATURETYPE$6, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "featureType" element
-         */
-        public void setFeatureType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType.Enum featureType)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FEATURETYPE$6, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(FEATURETYPE$6);
-                }
-                target.setEnumValue(featureType);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "featureType" element
-         */
-        public void xsetFeatureType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType featureType)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType)get_store().find_element_user(FEATURETYPE$6, 0);
-                if (target == null)
-                {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType)get_store().add_element_user(FEATURETYPE$6);
-                }
-                target.set(featureType);
-            }
-        }
-        
-        /**
          * Gets the "endTime" element
          */
         public java.util.Calendar getEndTime()
@@ -383,7 +247,7 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$4, 0);
                 if (target == null)
                 {
                     return null;
@@ -401,7 +265,7 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$8, 0);
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$4, 0);
                 return target;
             }
         }
@@ -415,10 +279,10 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ENDTIME$4, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(ENDTIME$8);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(ENDTIME$4);
                 }
                 target.setCalendarValue(endTime);
             }
@@ -433,12 +297,148 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDateTime target = null;
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$8, 0);
+                target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(ENDTIME$4, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(ENDTIME$8);
+                    target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(ENDTIME$4);
                 }
                 target.set(endTime);
+            }
+        }
+        
+        /**
+         * Gets the "compType" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType.Enum getCompType()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(COMPTYPE$6, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType.Enum)target.getEnumValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "compType" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType xgetCompType()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType)get_store().find_element_user(COMPTYPE$6, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "compType" element
+         */
+        public void setCompType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType.Enum compType)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(COMPTYPE$6, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(COMPTYPE$6);
+                }
+                target.setEnumValue(compType);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "compType" element
+         */
+        public void xsetCompType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType compType)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType)get_store().find_element_user(COMPTYPE$6, 0);
+                if (target == null)
+                {
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.CompTypeType)get_store().add_element_user(COMPTYPE$6);
+                }
+                target.set(compType);
+            }
+        }
+        
+        /**
+         * Gets the "featureType" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType.Enum getFeatureType()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FEATURETYPE$8, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType.Enum)target.getEnumValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "featureType" element
+         */
+        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType xgetFeatureType()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType)get_store().find_element_user(FEATURETYPE$8, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "featureType" element
+         */
+        public void setFeatureType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType.Enum featureType)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(FEATURETYPE$8, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(FEATURETYPE$8);
+                }
+                target.setEnumValue(featureType);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "featureType" element
+         */
+        public void xsetFeatureType(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType featureType)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType target = null;
+                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType)get_store().find_element_user(FEATURETYPE$8, 0);
+                if (target == null)
+                {
+                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FeatureTypeType)get_store().add_element_user(FEATURETYPE$8);
+                }
+                target.set(featureType);
             }
         }
         
@@ -511,15 +511,15 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
         }
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "propertyName" element
          */
-        public java.lang.String getListLatLon()
+        public java.lang.String getPropertyName()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$12, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PROPERTYNAME$12, 0);
                 if (target == null)
                 {
                     return null;
@@ -529,52 +529,52 @@ public class GmlTimeSeriesDocumentImpl extends org.apache.xmlbeans.impl.values.X
         }
         
         /**
-         * Gets (as xml) the "listLatLon" element
+         * Gets (as xml) the "propertyName" element
          */
-        public gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon()
+        public org.apache.xmlbeans.XmlString xgetPropertyName()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$12, 0);
+                org.apache.xmlbeans.XmlString target = null;
+                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(PROPERTYNAME$12, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "listLatLon" element
+         * Sets the "propertyName" element
          */
-        public void setListLatLon(java.lang.String listLatLon)
+        public void setPropertyName(java.lang.String propertyName)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LISTLATLON$12, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(PROPERTYNAME$12, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LISTLATLON$12);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(PROPERTYNAME$12);
                 }
-                target.setStringValue(listLatLon);
+                target.setStringValue(propertyName);
             }
         }
         
         /**
-         * Sets (as xml) the "listLatLon" element
+         * Sets (as xml) the "propertyName" element
          */
-        public void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon)
+        public void xsetPropertyName(org.apache.xmlbeans.XmlString propertyName)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType target = null;
-                target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().find_element_user(LISTLATLON$12, 0);
+                org.apache.xmlbeans.XmlString target = null;
+                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(PROPERTYNAME$12, 0);
                 if (target == null)
                 {
-                    target = (gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType)get_store().add_element_user(LISTLATLON$12);
+                    target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(PROPERTYNAME$12);
                 }
-                target.set(listLatLon);
+                target.set(propertyName);
             }
         }
     }

@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface GmlLatLonListResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonListResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmllatlonlistresponse54f1doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonListResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmllatlonlistresponse54f1doctype");
     
     /**
      * Gets the "GmlLatLonListResponse" element
@@ -42,7 +42,7 @@ public interface GmlLatLonListResponseDocument extends org.apache.xmlbeans.XmlOb
     public interface GmlLatLonListResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonListResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("gmllatlonlistresponse9e54elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GmlLatLonListResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("gmllatlonlistresponse9e54elemtype");
         
         /**
          * Gets the "dwGmlOut" element

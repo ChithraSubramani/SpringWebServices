@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface LatLonListSubgridResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgridResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistsubgridresponse5f85doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgridResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistsubgridresponse5f85doctype");
     
     /**
      * Gets the "LatLonListSubgridResponse" element
@@ -42,7 +42,7 @@ public interface LatLonListSubgridResponseDocument extends org.apache.xmlbeans.X
     public interface LatLonListSubgridResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgridResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistsubgridresponse7c7celemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgridResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistsubgridresponse7c7celemtype");
         
         /**
          * Gets the "listLatLonOut" element

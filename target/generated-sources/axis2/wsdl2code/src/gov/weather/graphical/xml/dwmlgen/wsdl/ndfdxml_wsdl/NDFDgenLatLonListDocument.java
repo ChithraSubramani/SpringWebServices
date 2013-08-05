@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface NDFDgenLatLonListDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenLatLonListDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenlatlonlist9e7cdoctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenLatLonListDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenlatlonlist9e7cdoctype");
     
     /**
      * Gets the "NDFDgenLatLonList" element
@@ -42,27 +42,27 @@ public interface NDFDgenLatLonListDocument extends org.apache.xmlbeans.XmlObject
     public interface NDFDgenLatLonList extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenLatLonList.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenlatlonlist4eeaelemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenLatLonList.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenlatlonlist4eeaelemtype");
         
         /**
-         * Gets the "startTime" element
+         * Gets the "listLatLon" element
          */
-        java.util.Calendar getStartTime();
+        java.lang.String getListLatLon();
         
         /**
-         * Gets (as xml) the "startTime" element
+         * Gets (as xml) the "listLatLon" element
          */
-        org.apache.xmlbeans.XmlDateTime xgetStartTime();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
         
         /**
-         * Sets the "startTime" element
+         * Sets the "listLatLon" element
          */
-        void setStartTime(java.util.Calendar startTime);
+        void setListLatLon(java.lang.String listLatLon);
         
         /**
-         * Sets (as xml) the "startTime" element
+         * Sets (as xml) the "listLatLon" element
          */
-        void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime);
+        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
         
         /**
          * Gets the "product" element
@@ -85,19 +85,24 @@ public interface NDFDgenLatLonListDocument extends org.apache.xmlbeans.XmlObject
         void xsetProduct(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ProductType product);
         
         /**
-         * Gets the "weatherParameters" element
+         * Gets the "startTime" element
          */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters();
+        java.util.Calendar getStartTime();
         
         /**
-         * Sets the "weatherParameters" element
+         * Gets (as xml) the "startTime" element
          */
-        void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters);
+        org.apache.xmlbeans.XmlDateTime xgetStartTime();
         
         /**
-         * Appends and returns a new empty "weatherParameters" element
+         * Sets the "startTime" element
          */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters();
+        void setStartTime(java.util.Calendar startTime);
+        
+        /**
+         * Sets (as xml) the "startTime" element
+         */
+        void xsetStartTime(org.apache.xmlbeans.XmlDateTime startTime);
         
         /**
          * Gets the "endTime" element
@@ -140,24 +145,19 @@ public interface NDFDgenLatLonListDocument extends org.apache.xmlbeans.XmlObject
         void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "weatherParameters" element
          */
-        java.lang.String getListLatLon();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType getWeatherParameters();
         
         /**
-         * Gets (as xml) the "listLatLon" element
+         * Sets the "weatherParameters" element
          */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
+        void setWeatherParameters(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType weatherParameters);
         
         /**
-         * Sets the "listLatLon" element
+         * Appends and returns a new empty "weatherParameters" element
          */
-        void setListLatLon(java.lang.String listLatLon);
-        
-        /**
-         * Sets (as xml) the "listLatLon" element
-         */
-        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.WeatherParametersType addNewWeatherParameters();
         
         /**
          * A factory class with static methods for creating instances

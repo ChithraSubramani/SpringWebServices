@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface NDFDgenByDayLatLonListDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayLatLonListDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenbydaylatlonlist46dddoctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayLatLonListDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenbydaylatlonlist46dddoctype");
     
     /**
      * Gets the "NDFDgenByDayLatLonList" element
@@ -42,7 +42,27 @@ public interface NDFDgenByDayLatLonListDocument extends org.apache.xmlbeans.XmlO
     public interface NDFDgenByDayLatLonList extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayLatLonList.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("ndfdgenbydaylatlonlist040celemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NDFDgenByDayLatLonList.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("ndfdgenbydaylatlonlist040celemtype");
+        
+        /**
+         * Gets the "listLatLon" element
+         */
+        java.lang.String getListLatLon();
+        
+        /**
+         * Gets (as xml) the "listLatLon" element
+         */
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
+        
+        /**
+         * Sets the "listLatLon" element
+         */
+        void setListLatLon(java.lang.String listLatLon);
+        
+        /**
+         * Sets (as xml) the "listLatLon" element
+         */
+        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
         
         /**
          * Gets the "startDate" element
@@ -85,26 +105,6 @@ public interface NDFDgenByDayLatLonListDocument extends org.apache.xmlbeans.XmlO
         void xsetNumDays(org.apache.xmlbeans.XmlInteger numDays);
         
         /**
-         * Gets the "format" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum getFormat();
-        
-        /**
-         * Gets (as xml) the "format" element
-         */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType xgetFormat();
-        
-        /**
-         * Sets the "format" element
-         */
-        void setFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum format);
-        
-        /**
-         * Sets (as xml) the "format" element
-         */
-        void xsetFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType format);
-        
-        /**
          * Gets the "Unit" element
          */
         gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType.Enum getUnit();
@@ -125,24 +125,24 @@ public interface NDFDgenByDayLatLonListDocument extends org.apache.xmlbeans.XmlO
         void xsetUnit(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.UnitType unit);
         
         /**
-         * Gets the "listLatLon" element
+         * Gets the "format" element
          */
-        java.lang.String getListLatLon();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum getFormat();
         
         /**
-         * Gets (as xml) the "listLatLon" element
+         * Gets (as xml) the "format" element
          */
-        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType xgetListLatLon();
+        gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType xgetFormat();
         
         /**
-         * Sets the "listLatLon" element
+         * Sets the "format" element
          */
-        void setListLatLon(java.lang.String listLatLon);
+        void setFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType.Enum format);
         
         /**
-         * Sets (as xml) the "listLatLon" element
+         * Sets (as xml) the "format" element
          */
-        void xsetListLatLon(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.ListLatLonType listLatLon);
+        void xsetFormat(gov.weather.graphical.xml.dwmlgen.schema.dwml_xsd.FormatType format);
         
         /**
          * A factory class with static methods for creating instances

@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface LatLonListSubgridDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgridDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistsubgrid7586doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgridDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistsubgrid7586doctype");
     
     /**
      * Gets the "LatLonListSubgrid" element
@@ -42,27 +42,7 @@ public interface LatLonListSubgridDocument extends org.apache.xmlbeans.XmlObject
     public interface LatLonListSubgrid extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgrid.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistsubgrid13feelemtype");
-        
-        /**
-         * Gets the "upperRightLatitude" element
-         */
-        java.math.BigDecimal getUpperRightLatitude();
-        
-        /**
-         * Gets (as xml) the "upperRightLatitude" element
-         */
-        org.apache.xmlbeans.XmlDecimal xgetUpperRightLatitude();
-        
-        /**
-         * Sets the "upperRightLatitude" element
-         */
-        void setUpperRightLatitude(java.math.BigDecimal upperRightLatitude);
-        
-        /**
-         * Sets (as xml) the "upperRightLatitude" element
-         */
-        void xsetUpperRightLatitude(org.apache.xmlbeans.XmlDecimal upperRightLatitude);
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListSubgrid.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistsubgrid13feelemtype");
         
         /**
          * Gets the "lowerLeftLatitude" element
@@ -105,24 +85,24 @@ public interface LatLonListSubgridDocument extends org.apache.xmlbeans.XmlObject
         void xsetLowerLeftLongitude(org.apache.xmlbeans.XmlDecimal lowerLeftLongitude);
         
         /**
-         * Gets the "resolution" element
+         * Gets the "upperRightLatitude" element
          */
-        java.math.BigDecimal getResolution();
+        java.math.BigDecimal getUpperRightLatitude();
         
         /**
-         * Gets (as xml) the "resolution" element
+         * Gets (as xml) the "upperRightLatitude" element
          */
-        org.apache.xmlbeans.XmlDecimal xgetResolution();
+        org.apache.xmlbeans.XmlDecimal xgetUpperRightLatitude();
         
         /**
-         * Sets the "resolution" element
+         * Sets the "upperRightLatitude" element
          */
-        void setResolution(java.math.BigDecimal resolution);
+        void setUpperRightLatitude(java.math.BigDecimal upperRightLatitude);
         
         /**
-         * Sets (as xml) the "resolution" element
+         * Sets (as xml) the "upperRightLatitude" element
          */
-        void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution);
+        void xsetUpperRightLatitude(org.apache.xmlbeans.XmlDecimal upperRightLatitude);
         
         /**
          * Gets the "upperRightLongitude" element
@@ -143,6 +123,26 @@ public interface LatLonListSubgridDocument extends org.apache.xmlbeans.XmlObject
          * Sets (as xml) the "upperRightLongitude" element
          */
         void xsetUpperRightLongitude(org.apache.xmlbeans.XmlDecimal upperRightLongitude);
+        
+        /**
+         * Gets the "resolution" element
+         */
+        java.math.BigDecimal getResolution();
+        
+        /**
+         * Gets (as xml) the "resolution" element
+         */
+        org.apache.xmlbeans.XmlDecimal xgetResolution();
+        
+        /**
+         * Sets the "resolution" element
+         */
+        void setResolution(java.math.BigDecimal resolution);
+        
+        /**
+         * Sets (as xml) the "resolution" element
+         */
+        void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution);
         
         /**
          * A factory class with static methods for creating instances

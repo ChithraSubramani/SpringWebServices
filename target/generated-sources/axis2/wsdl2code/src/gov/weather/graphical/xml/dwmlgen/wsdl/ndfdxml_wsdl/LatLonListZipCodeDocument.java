@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface LatLonListZipCodeDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListZipCodeDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistzipcode855edoctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListZipCodeDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistzipcode855edoctype");
     
     /**
      * Gets the "LatLonListZipCode" element
@@ -42,7 +42,7 @@ public interface LatLonListZipCodeDocument extends org.apache.xmlbeans.XmlObject
     public interface LatLonListZipCode extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListZipCode.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("latlonlistzipcoded7aeelemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LatLonListZipCode.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("latlonlistzipcoded7aeelemtype");
         
         /**
          * Gets the "zipCodeList" element

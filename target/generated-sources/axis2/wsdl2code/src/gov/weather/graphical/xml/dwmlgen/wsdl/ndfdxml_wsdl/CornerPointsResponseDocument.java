@@ -17,7 +17,7 @@ package gov.weather.graphical.xml.dwmlgen.wsdl.ndfdxml_wsdl;
 public interface CornerPointsResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CornerPointsResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("cornerpointsresponse68d7doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CornerPointsResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("cornerpointsresponse68d7doctype");
     
     /**
      * Gets the "CornerPointsResponse" element
@@ -42,7 +42,7 @@ public interface CornerPointsResponseDocument extends org.apache.xmlbeans.XmlObj
     public interface CornerPointsResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CornerPointsResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sC9ECCC5B79F208FCE39A27A903A6844C").resolveHandle("cornerpointsresponsea64celemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CornerPointsResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sA87D6C15DEB732A4F74CA9A906A94D12").resolveHandle("cornerpointsresponsea64celemtype");
         
         /**
          * Gets the "listLatLonOut" element

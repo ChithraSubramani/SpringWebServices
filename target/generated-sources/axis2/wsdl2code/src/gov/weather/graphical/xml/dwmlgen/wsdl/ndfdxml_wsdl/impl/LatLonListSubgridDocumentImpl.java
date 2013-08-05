@@ -86,85 +86,17 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             super(sType);
         }
         
-        private static final javax.xml.namespace.QName UPPERRIGHTLATITUDE$0 = 
-            new javax.xml.namespace.QName("", "upperRightLatitude");
-        private static final javax.xml.namespace.QName LOWERLEFTLATITUDE$2 = 
+        private static final javax.xml.namespace.QName LOWERLEFTLATITUDE$0 = 
             new javax.xml.namespace.QName("", "lowerLeftLatitude");
-        private static final javax.xml.namespace.QName LOWERLEFTLONGITUDE$4 = 
+        private static final javax.xml.namespace.QName LOWERLEFTLONGITUDE$2 = 
             new javax.xml.namespace.QName("", "lowerLeftLongitude");
-        private static final javax.xml.namespace.QName RESOLUTION$6 = 
-            new javax.xml.namespace.QName("", "resolution");
-        private static final javax.xml.namespace.QName UPPERRIGHTLONGITUDE$8 = 
+        private static final javax.xml.namespace.QName UPPERRIGHTLATITUDE$4 = 
+            new javax.xml.namespace.QName("", "upperRightLatitude");
+        private static final javax.xml.namespace.QName UPPERRIGHTLONGITUDE$6 = 
             new javax.xml.namespace.QName("", "upperRightLongitude");
+        private static final javax.xml.namespace.QName RESOLUTION$8 = 
+            new javax.xml.namespace.QName("", "resolution");
         
-        
-        /**
-         * Gets the "upperRightLatitude" element
-         */
-        public java.math.BigDecimal getUpperRightLatitude()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLATITUDE$0, 0);
-                if (target == null)
-                {
-                    return null;
-                }
-                return target.getBigDecimalValue();
-            }
-        }
-        
-        /**
-         * Gets (as xml) the "upperRightLatitude" element
-         */
-        public org.apache.xmlbeans.XmlDecimal xgetUpperRightLatitude()
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLATITUDE$0, 0);
-                return target;
-            }
-        }
-        
-        /**
-         * Sets the "upperRightLatitude" element
-         */
-        public void setUpperRightLatitude(java.math.BigDecimal upperRightLatitude)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLATITUDE$0, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(UPPERRIGHTLATITUDE$0);
-                }
-                target.setBigDecimalValue(upperRightLatitude);
-            }
-        }
-        
-        /**
-         * Sets (as xml) the "upperRightLatitude" element
-         */
-        public void xsetUpperRightLatitude(org.apache.xmlbeans.XmlDecimal upperRightLatitude)
-        {
-            synchronized (monitor())
-            {
-                check_orphaned();
-                org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLATITUDE$0, 0);
-                if (target == null)
-                {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(UPPERRIGHTLATITUDE$0);
-                }
-                target.set(upperRightLatitude);
-            }
-        }
         
         /**
          * Gets the "lowerLeftLatitude" element
@@ -175,7 +107,7 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLATITUDE$2, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLATITUDE$0, 0);
                 if (target == null)
                 {
                     return null;
@@ -193,7 +125,7 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLATITUDE$2, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLATITUDE$0, 0);
                 return target;
             }
         }
@@ -207,10 +139,10 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLATITUDE$2, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLATITUDE$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LOWERLEFTLATITUDE$2);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LOWERLEFTLATITUDE$0);
                 }
                 target.setBigDecimalValue(lowerLeftLatitude);
             }
@@ -225,10 +157,10 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLATITUDE$2, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLATITUDE$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LOWERLEFTLATITUDE$2);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LOWERLEFTLATITUDE$0);
                 }
                 target.set(lowerLeftLatitude);
             }
@@ -243,7 +175,7 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLONGITUDE$4, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLONGITUDE$2, 0);
                 if (target == null)
                 {
                     return null;
@@ -261,7 +193,7 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLONGITUDE$4, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLONGITUDE$2, 0);
                 return target;
             }
         }
@@ -275,10 +207,10 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLONGITUDE$4, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(LOWERLEFTLONGITUDE$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LOWERLEFTLONGITUDE$4);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(LOWERLEFTLONGITUDE$2);
                 }
                 target.setBigDecimalValue(lowerLeftLongitude);
             }
@@ -293,25 +225,25 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLONGITUDE$4, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(LOWERLEFTLONGITUDE$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LOWERLEFTLONGITUDE$4);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(LOWERLEFTLONGITUDE$2);
                 }
                 target.set(lowerLeftLongitude);
             }
         }
         
         /**
-         * Gets the "resolution" element
+         * Gets the "upperRightLatitude" element
          */
-        public java.math.BigDecimal getResolution()
+        public java.math.BigDecimal getUpperRightLatitude()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$6, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLATITUDE$4, 0);
                 if (target == null)
                 {
                     return null;
@@ -321,52 +253,52 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
         }
         
         /**
-         * Gets (as xml) the "resolution" element
+         * Gets (as xml) the "upperRightLatitude" element
          */
-        public org.apache.xmlbeans.XmlDecimal xgetResolution()
+        public org.apache.xmlbeans.XmlDecimal xgetUpperRightLatitude()
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$6, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLATITUDE$4, 0);
                 return target;
             }
         }
         
         /**
-         * Sets the "resolution" element
+         * Sets the "upperRightLatitude" element
          */
-        public void setResolution(java.math.BigDecimal resolution)
+        public void setUpperRightLatitude(java.math.BigDecimal upperRightLatitude)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$6, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLATITUDE$4, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(RESOLUTION$6);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(UPPERRIGHTLATITUDE$4);
                 }
-                target.setBigDecimalValue(resolution);
+                target.setBigDecimalValue(upperRightLatitude);
             }
         }
         
         /**
-         * Sets (as xml) the "resolution" element
+         * Sets (as xml) the "upperRightLatitude" element
          */
-        public void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution)
+        public void xsetUpperRightLatitude(org.apache.xmlbeans.XmlDecimal upperRightLatitude)
         {
             synchronized (monitor())
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$6, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLATITUDE$4, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(RESOLUTION$6);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(UPPERRIGHTLATITUDE$4);
                 }
-                target.set(resolution);
+                target.set(upperRightLatitude);
             }
         }
         
@@ -379,7 +311,7 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLONGITUDE$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLONGITUDE$6, 0);
                 if (target == null)
                 {
                     return null;
@@ -397,7 +329,7 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLONGITUDE$8, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLONGITUDE$6, 0);
                 return target;
             }
         }
@@ -411,10 +343,10 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLONGITUDE$8, 0);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(UPPERRIGHTLONGITUDE$6, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(UPPERRIGHTLONGITUDE$8);
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(UPPERRIGHTLONGITUDE$6);
                 }
                 target.setBigDecimalValue(upperRightLongitude);
             }
@@ -429,12 +361,80 @@ public class LatLonListSubgridDocumentImpl extends org.apache.xmlbeans.impl.valu
             {
                 check_orphaned();
                 org.apache.xmlbeans.XmlDecimal target = null;
-                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLONGITUDE$8, 0);
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(UPPERRIGHTLONGITUDE$6, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(UPPERRIGHTLONGITUDE$8);
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(UPPERRIGHTLONGITUDE$6);
                 }
                 target.set(upperRightLongitude);
+            }
+        }
+        
+        /**
+         * Gets the "resolution" element
+         */
+        public java.math.BigDecimal getResolution()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$8, 0);
+                if (target == null)
+                {
+                    return null;
+                }
+                return target.getBigDecimalValue();
+            }
+        }
+        
+        /**
+         * Gets (as xml) the "resolution" element
+         */
+        public org.apache.xmlbeans.XmlDecimal xgetResolution()
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDecimal target = null;
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$8, 0);
+                return target;
+            }
+        }
+        
+        /**
+         * Sets the "resolution" element
+         */
+        public void setResolution(java.math.BigDecimal resolution)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.SimpleValue target = null;
+                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(RESOLUTION$8, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(RESOLUTION$8);
+                }
+                target.setBigDecimalValue(resolution);
+            }
+        }
+        
+        /**
+         * Sets (as xml) the "resolution" element
+         */
+        public void xsetResolution(org.apache.xmlbeans.XmlDecimal resolution)
+        {
+            synchronized (monitor())
+            {
+                check_orphaned();
+                org.apache.xmlbeans.XmlDecimal target = null;
+                target = (org.apache.xmlbeans.XmlDecimal)get_store().find_element_user(RESOLUTION$8, 0);
+                if (target == null)
+                {
+                    target = (org.apache.xmlbeans.XmlDecimal)get_store().add_element_user(RESOLUTION$8);
+                }
+                target.set(resolution);
             }
         }
     }
